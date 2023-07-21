@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Coountdown Timer</title>
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        h1{
+            font-size: 30px;
+            text-align: center;
+        }
+        .container{
+            background: gray;
+            margin: 100px auto;
+            width: 60%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            width: 50%;
+        }
+        .countdown{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 50%;
+            margin: 50px;
+            column-gap: 10px;
+        }
+        button {
+            cursor: pointer;
+        }
+        h2 {
+            display: none;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Count Down Timer</h1>
+    <h2 id="timerText">Timer started</h2>
+    <section class="container">
+        <div class="countdown">
+            <input type="text" id="count">
+            <button id="start">start CountDown</button>
+            <div id="counter">00:00:00</div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

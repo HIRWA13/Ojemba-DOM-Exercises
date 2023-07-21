@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide the message</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 50%;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #messages {
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .message {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            row-gap: 10px;
+            align-items: center;
+            background: limegreen;
+        }
+        button {
+            height: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div id="messages">
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis maiores enim modi quae repudiandae voluptatum esse labore et blanditiis, aliquid itaque officiis voluptas explicabo minus? Repellat quidem modi repellendus!</p>
+                <button id="hide">[X]</button>
+            </div>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis maiores enim modi quae repudiandae voluptatum esse labore et blanditiis, aliquid itaque officiis voluptas explicabo minus? Repellat quidem modi repellendus!</p>
+                <button id="hide">[X]</button>
+            </div>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis maiores enim modi quae repudiandae voluptatum esse labore et blanditiis, aliquid itaque officiis voluptas explicabo minus? Repellat quidem modi repellendus!</p>
+                <button id="hide">[X]</button>
+            </div>
+            <div class="message">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quis maiores enim modi quae repudiandae voluptatum esse labore et blanditiis, aliquid itaque officiis voluptas explicabo minus? Repellat quidem modi repellendus!</p>
+                <button id="hide">[X]</button>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
