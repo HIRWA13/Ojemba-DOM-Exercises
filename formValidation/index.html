@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #container{
+            width: 500px;
+            height: 300px;
+            background-color: white;
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-top: 100px;
+            padding: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+            color: green;
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        input {
+            width: 50%;
+            height: 30px;
+            margin-top: 10px;
+        }
+        #result{
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <h1>Form Validation</h1>
+        <p>you are allowed to enter numbers only</p>
+        <div class="inputs">
+            <input type="text" placeholder="Enter First Number" id = "first">
+            <input type="text" placeholder="Enter Second Number" id = "second">
+        </div>
+        <div id="result"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
